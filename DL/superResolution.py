@@ -1,3 +1,4 @@
+#code from: https://pytorch.org/tutorials/advanced/super_resolution_with_onnxruntime.html
 class SuperResolutionNet(nn.Module):
     def __init__(self, upscale_factor, inplace=False):
         super(SuperResolutionNet, self).__init__()
